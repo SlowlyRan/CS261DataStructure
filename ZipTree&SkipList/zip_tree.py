@@ -83,7 +83,6 @@ class ZipTree:
 
 
 	def remove(self, key: KeyType):
-		print("remove",key)
 		self.root = self.delete_node(key,self.root)
 		return
 
